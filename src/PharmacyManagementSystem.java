@@ -469,7 +469,7 @@ public class PharmacyManagementSystem {
                 JOptionPane.showMessageDialog(this, "Error updating medicine: " + e.getMessage());
             }
         }
-
+//create delete method
         private void deleteMedicine() {
             int selectedRow = medicineTable.getSelectedRow();
             if (selectedRow == -1) {
