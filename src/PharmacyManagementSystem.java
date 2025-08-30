@@ -206,7 +206,7 @@ public class PharmacyManagementSystem {
             setSize(1000, 600);
             setLocationRelativeTo(null);
 
-            // Create menu bar
+            // Create menu bar here
             JMenuBar menuBar = new JMenuBar();
             JMenu systemMenu = new JMenu("System");
             JMenuItem logoutItem = new JMenuItem("Logout");
@@ -424,7 +424,7 @@ public class PharmacyManagementSystem {
                 JOptionPane.showMessageDialog(this, "Error adding medicine: " + e.getMessage());
             }
         }
-
+//edit med method
         private void editSelectedMedicine() {
             int selectedRow = medicineTable.getSelectedRow();
             if (selectedRow == -1) return;
