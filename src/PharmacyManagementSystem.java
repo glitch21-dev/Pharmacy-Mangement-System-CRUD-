@@ -963,7 +963,7 @@ public class PharmacyManagementSystem {
                 }
 
                 if (!hasExpired) {
-                    report.append("No expired medicines found.\n");
+                    report.append("Expired Medicines Not Found!.\n");
                 } else {
                     report.append("\n").append("=".repeat(80)).append("\n");
                     report.append(String.format("Total Expired Items: %d\n", expiredItems));
